@@ -1,0 +1,62 @@
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color:goldenrod;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+#reservation-form {
+    background-color:silver;
+    padding: 1em;
+    border: 1px solid goldenrod;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#reservation-list {
+    background-color: #f0f0f0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+}
+
+#reservation-list-ul {
+    background-color: black;
+    color: white;
+    text-shadow: 5px 5px 8px ;
+    list-style: lower-alpha;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+#reservation-list-ul li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+#reservation-list-ul li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+

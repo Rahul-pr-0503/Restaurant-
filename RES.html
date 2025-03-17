@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Reservation App</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="icon" href="https://publicovationpr.wordpress.com/wp-content/uploads/2013/01/images.jpg">
+</head>
+<body>
+    <header>
+        <h1>Table Reservation App</h1>
+    </header>
+    <main>
+        <section id="reservation-form">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time"><br><br>
+                <label for="tables">Number of Tables:</label>
+                <select id="tables" name="tables">r̥
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select><br><br>
+                <button id="submit-btn">Make Reservation</button>
+            </form>
+        </section>
+        <section id="reservation-list">
+            <h2>Reservations</h2>
+            <ul id="reservation-list-ul"></ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
